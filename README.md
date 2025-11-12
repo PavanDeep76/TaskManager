@@ -1,10 +1,10 @@
-# 🧾 TaskManager
+🧾 TaskManager
 
 TaskManager is a full-stack web application designed to help users efficiently manage their daily tasks and boost productivity. It allows users to create, organize, track, and prioritize tasks through an intuitive interface with secure authentication and persistent data storage.
 
 ---
 
-## 🚀 Features
+🚀 Features
 
 - ✅ **User Authentication** – Secure registration and login using JWT.
 - 🗂️ **Task Management** – Create, read, update, and delete tasks easily.
@@ -16,60 +16,52 @@ TaskManager is a full-stack web application designed to help users efficiently m
 
 ---
 
-## 🏗️ Tech Stack
+🏗️ Tech Stack
 
-### **Frontend**
+**Frontend**
 - HTML5, CSS3, JavaScript (ES6+)
 - React.js (or plain JS if used)
 - Bootstrap / Tailwind CSS for styling
 
-### **Backend**
+**Backend**
 - Node.js with Express.js
 - RESTful API architecture
 - JWT for authentication and authorization
 
-### **Database**
+**Database**
 - MongoDB Atlas (Cloud Database)
 - Mongoose ORM for schema management
 
 ---
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
+1️⃣ Clone the Repository
+
 git clone https://github.com/PavanDeep76/TaskManager.git
 cd TaskManager
 2️⃣ Install Dependencies
 Backend
-bash
-Copy code
 cd server
 npm install
 Frontend
-bash
-Copy code
 cd client
 npm install
 3️⃣ Environment Configuration
 Create a .env file inside the server folder and add the following:
 
-env
-Copy code
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 4️⃣ Run the Application
 Backend
-bash
-Copy code
 cd server
 npm start
+
 Frontend
-bash
-Copy code
 cd client
 npm start
+
 The application will run on:
 
 Frontend → http://localhost:3000
@@ -128,22 +120,11 @@ JWT_SECRET=mySecretKey
 
 🔔 Email or SMS reminders for due tasks
 
-📸 Screenshots (Optional)
-(Add screenshots of your UI once available)
-
-Login Page
-
-Dashboard
-
-Task List
-
-Create Task Form
-
 👨‍💻 Developed By
 Pavan Deep Pedamarla
 📧 pavandeep707@gmail.com
-🔗 LinkedIn
-💻 GitHub
+🔗 www.linkedin.com/in/pavan-deep-pedamarla-756692273
+💻 https://github.com/PavanDeep76
 
 🪪 License
 This project is licensed under the MIT License.
